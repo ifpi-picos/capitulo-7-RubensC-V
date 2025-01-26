@@ -1,7 +1,13 @@
-const nome = prompt ("Digite seu nome completo:")
+const dividirNome = () => {
+    const nome = prompt ("Digite seu nome completo:");
 
-const partes = nome.split (" ");
+    const partes = nome.split (" ");
 
 console.log (partes [0], partes [partes.length - 1] )
+};
+
+dividirNome();
+
+
 
 
